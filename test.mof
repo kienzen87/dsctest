@@ -1,0 +1,46 @@
+/*
+@TargetNode='test'
+@GeneratedBy=A200331561
+@GenerationDate=03/06/2025 11:11:16
+@GenerationHost=BE1AG745
+*/
+
+instance of MSFT_RoleResource as $MSFT_RoleResource1ref
+{
+ResourceID = "[WindowsFeature]InstallDotNetFrameworkCore";
+ Ensure = "Present";
+ SourceInfo = "C:\\Telekom\\azure-cid0186-cip0168\\Microsoft.Compute\\virtualMachines\\dscdemo\\dsc\\test.ps1::6::9::WindowsFeature";
+ Name = "NET-Framework-Core";
+ ModuleName = "PSDesiredStateConfiguration";
+
+ModuleVersion = "1.0";
+
+ ConfigurationName = "TestConfig";
+
+};
+instance of OMI_ConfigurationDocument
+
+
+                    {
+ Version="2.0.0";
+ 
+
+                        MinimumCompatibleVersion = "1.0.0";
+ 
+
+                        CompatibleVersionAdditionalProperties= {"Omi_BaseResource:ConfigurationName"};
+ 
+
+                        Author="A200331561";
+ 
+
+                        GenerationDate="03/06/2025 11:11:16";
+ 
+
+                        GenerationHost="BE1AG745";
+ 
+
+                        Name="TestConfig";
+
+
+                    };
